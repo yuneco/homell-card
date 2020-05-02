@@ -1,11 +1,11 @@
 <template>
   <header class="app-header-root">
     <div class="subtitle">
-      アソビのタネをみつけよう！
+      みんなで きがるに おはなししよう
     </div>
     <div class="title">
-      HOMELL-CARD
-      <div class="ruby">ホーメル カード</div>
+      cha-chat!
+      <div class="ruby">チャチャット！</div>
     </div>
   </header>
 </template>

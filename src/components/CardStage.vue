@@ -3,7 +3,7 @@
     <div class="card-box theme-card-box" :style="{filter: `drop-shadow(0 5px 15px ${cardState.themeCard.shadow})`}">
       <div class="box-title" :class="{flipping: cardState.themeCard.isFlipping}" :style="{
         backgroundColor: cardState.themeCard.color
-      }">なんのアソビを もとにする？</div>
+      }">あそび・たのしいこと</div>
       <TalkCard
         :text="cardState.themeCard.text"
         :bgcolor="cardState.themeCard.color"
@@ -14,7 +14,7 @@
     <div class="card-box style-card-box" :style="{filter: `drop-shadow(0 5px 15px ${cardState.styleCard.shadow})`}">
       <div class="box-title" :class="{flipping: cardState.styleCard.isFlipping}" :style="{
         backgroundColor: cardState.styleCard.color
-      }">どんなふうに かえてみる？</div>
+      }">それを・・・こうしたら？</div>
       <TalkCard
         :text="cardState.styleCard.text"
         :bgcolor="cardState.styleCard.color"
