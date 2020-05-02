@@ -3,7 +3,7 @@
     <div class="card-box theme-card-box" :style="{filter: `drop-shadow(0 5px 15px ${cardState.themeCard.shadow})`}">
       <div class="box-title" :class="{flipping: cardState.themeCard.isFlipping}" :style="{
         backgroundColor: cardState.themeCard.color
-      }">なんのことをはなす？</div>
+      }">なんのアソビを もとにする？</div>
       <TalkCard
         :text="cardState.themeCard.text"
         :bgcolor="cardState.themeCard.color"
@@ -14,7 +14,7 @@
     <div class="card-box style-card-box" :style="{filter: `drop-shadow(0 5px 15px ${cardState.styleCard.shadow})`}">
       <div class="box-title" :class="{flipping: cardState.styleCard.isFlipping}" :style="{
         backgroundColor: cardState.styleCard.color
-      }">どんなふうにはなす？</div>
+      }">どんなふうに かえてみる？</div>
       <TalkCard
         :text="cardState.styleCard.text"
         :bgcolor="cardState.styleCard.color"
@@ -177,8 +177,9 @@ export default defineComponent({
   .box-title {
     position: relative;
     display: inline-block;
-    height: 20px;
-    font-size: 14px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: bold;
     padding: 1px 10px;
     border-radius: 4px;
     color: #fff;

@@ -1,11 +1,11 @@
 <template>
   <header class="app-header-root">
     <div class="subtitle">
-      みんなで きがるに おはなししよう
+      アソビのタネをみつけよう！
     </div>
     <div class="title">
-      CHA-CHAT!
-      <div class="ruby">チャチャット!</div>
+      HOMELL-CARD
+      <div class="ruby">ホーメル カード</div>
     </div>
   </header>
 </template>
@@ -51,7 +51,7 @@ header {
       font-size: 14pt;
       transform: rotate(4deg);
       &::after{
-        content: 'チャチャット!';
+        content: 'ホーメル カード';
         position: absolute;
         left: 0;
         top: 0;
