@@ -51,7 +51,7 @@ header {
       font-size: 14pt;
       transform: rotate(4deg);
       &::after{
-        content: 'ホーメル カード';
+        content: 'チャチャット！';
         position: absolute;
         left: 0;
         top: 0;
